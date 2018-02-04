@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Cinzel-Regular;
+    src: url(fonts/Cinzel-Regular.otf);
+}
+
+body {
+    font-family: Cinzel-Regular;
+    /*background-color: #494846;*/
+    background-color: white;
+}
+
+.resume-margin {
+    margin-bottom: 140px;
+}
+
+div.margin {
+    margin-top: 100px;
+}
+
+p.inline {
+    display: inline;
+}
+
+div.contact {
+    box-sizing: border-box;
+    padding-top: 100px;
+    height: 325px;
+    width: 100%;
+    background-color: grey;
+}
+
+div.contact a {
+    color: white;
+}
+
+div.contact a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.description {
+    margin-top: 20px; 
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.img-round {
+    border-radius: 4px;
+}
+
+.text {
+    color: black;
+}
+
+.phone {
+    color: white;
+}
+
+.container {
+    width: 100%;
+}
+
+.inline {
+    display: inline;
+}
+
+.resume-block {
+    background-color: #525659;
+    width: 95%;
+    height: 100%;
+}
+
+.resume-block img {
+    width: 80%;
+    height: 100%;
+}
+
+.navbar {
+    border-radius: 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #262626;
+    font-size: 19px;
+}
+
+.image-border {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.resume {
+    background-color: grey;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.skill-set {
+    position: relative;
+    display: inline-block;
+    max-height: 150px;
+    margin-top: 100px;
+    max-width: 210px;
+    text-align: center;
+    opacity: .85;
+}
+
+.img-responsive {
+    display: block;
+}
+
+.sml-margin {
+    margin-top: 61px;
+}
+
+.underline {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.icon-style a i {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 45px;
+}
+
+.icon-style a i:hover {
+    color: grey;
+}
+
+.contact-icon a i:hover {
+    color: black;
+}
+
+.welcome {
+    font-size: 70px;
+    padding-top: 200px;
+    color: white;
+    font-weight: 600;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    /*color: white;*/
+    color: dark-grey;
+}
+
+.welcome-img {
+    height: 850px;
+    background: url("icons/black_white_beach.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: .9;
+    margin-top: -11px;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.top-bar {
+    box-sizing: border-box;
+    background-color: #262626;
+    height: auto;
+    border: 1px solid grey;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.list-inline {
+    display: inline;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: grey;
+    text-decoration: none;
+}
+
+.list-inline:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.main-margin {
+    margin-top: 37px;
+}
+
+.list-center {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 530px) {
+    ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .resume-block img {
+        width: 100%;
+    }
+}
