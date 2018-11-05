@@ -9,7 +9,6 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    /*background-color: #494846;*/
     background-color: white;
 }
 
@@ -60,6 +59,9 @@ div.contact a:hover {
 
 .text {
     color: black;
+}
+.resume-text {
+    color: white;
 }
 
 .phone {
@@ -137,6 +139,12 @@ div.contact a:hover {
 .underline {
     box-sizing: border-box;
     border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 20%;
+}
+.resume-underline {
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
     padding-bottom: 10px;
     width: 20%;
 }
