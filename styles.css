@@ -3,8 +3,12 @@
     src: url(fonts/Cinzel-Regular.otf);
 }
 
-body {
+.welcome-font {
     font-family: Cinzel-Regular;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
     /*background-color: #494846;*/
     background-color: white;
 }
